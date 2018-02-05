@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Denker Chat App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bg_img"><img src="https://static.pexels.com/photos/7640/pexels-photo.jpg" alt="BECKY LYNCH"></div>
+        <h1 class="intro">Denker</h1>
+        
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-sm-12 denker-app">
+                <h1 class="text-center">
+                    Denker <br>
+                    <button id="clear" class="btn btn-danger">Clear</button>
+                </h1>
+
+                <div id="status"></div>
+                <div id="chat">
+                    <strong>WebChat super smart app with nodejs, socket.io and mongoDB</strong>
+                    <input type="text" id="username" class="form-control" placeholder="Enter Name..." autofocus>
+
+                    <div class="card">
+                        <div id="messages" class="card-block">
+
+                        </div>
+                    </div>
+
+                    <textarea id="textarea" class="form-control" placeholder="Enter Message..." cols="30" rows="5"></textarea>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="js/funcs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

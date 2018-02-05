@@ -1,0 +1,21 @@
+{
+  "name": "denker",
+  "version": "1.0.0",
+  "description": "Software of Application with NodeJS, Socket.io and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Daniel Alejo Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "2.2.31",
+    "socket.io": "2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
